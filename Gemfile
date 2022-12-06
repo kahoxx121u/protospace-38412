@@ -63,8 +63,6 @@ gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 gem 'pry-rails'
 gem 'pry-doc'
 gem 'pry-byebug'
-
 group :production do
   gem 'pg'
-end
 end
